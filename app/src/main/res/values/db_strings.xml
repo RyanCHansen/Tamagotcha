@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CREATE_COURSE_SQL">
+    CREATE TABLE IF NOT EXISTS user_info
+    (user_uuid INTEGER PRIMARY KEY,
+        last_login int,
+        last_save int,
+        pet_name TEXT,
+        happiness INTEGER,
+        hunger INTEGER,
+        fitness INTEGER,
+        status INTEGER,
+        return_time INTEGER,
+        next_hunger_tick INTEGER,
+        next_happiness_tick INTEGER,
+        next_fitness_tick INTEGER,
+        last_logout_time INTEGER)
+    </string>
+
+    <string name="DROP_COURSE_SQL">
+    DROP TABLE IF EXISTS user_info
+    </string>
+
+</resources>
